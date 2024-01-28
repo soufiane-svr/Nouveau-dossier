@@ -9,8 +9,8 @@ App.get('/send',(req,res)=>{
 })
 App.get('/',(req,res)=>{
 
-    res.send(`  your name is   ${req.body.name} and your age is  ${req.query.age}`)
 
+    res.send('maman thank you ')
 })
 
 
